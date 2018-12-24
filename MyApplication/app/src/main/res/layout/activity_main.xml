@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.shafaet.myapplication.MainActivity">
+
+    <EditText
+        android:id="@+id/id_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="192.168.0.102:21567"/>
+    <Button
+        android:id="@+id/id_button_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"/>
+    <Button
+        android:id="@+id/id_button_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"/>
+
+</LinearLayout>
